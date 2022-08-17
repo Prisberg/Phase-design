@@ -1,0 +1,12 @@
+@media (min-width: 1250px) {
+
+    #logoImage {
+        display: block;
+        pointer-events: none;
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        left: 113px;
+        top: 85px;
+    }
+}

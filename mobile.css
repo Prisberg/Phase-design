@@ -5,22 +5,22 @@
 }
 
 navbar {
+    margin-top: 2rem;
     display: flex;
-    justify-content: center
+    align-items: center;
+    flex-direction: column;
 }
 
-.main {
-    position: absolute;
+.background {
+    position: fixed;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background: #231F20;
 }
 
 #logoText {
-    position: absolute;
     width: 312px;
     height: 130px;
-    top: 110px;
     font-family: 'Karantina';
     font-style: normal;
     font-weight: 700;
@@ -32,12 +32,7 @@ navbar {
 }
 
 #logoImage {
-    pointer-events: none;
-    position: absolute;
-    width: 270px;
-    height: 270px;
-    left: 113px;
-    top: 85px;
+    display: none;
 }
 
 .navBtn {
@@ -45,19 +40,25 @@ navbar {
     border: none;
     background: none;
     color: white;
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
 }
 
 .btnContainer {
-    position: absolute;
-    top: 248px;
-    font-family: 'Arial';
+    font-family: 'Calibri', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
     color: white;
+}
+
+.foreground {
+    z-index: 2;
+    top: 350px;
+    position: absolute;
+    background-color: white;
+    width: 100vw;
+    height: 1500px;
 }
