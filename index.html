@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/mobile.css">
     <link rel="stylesheet" href="./styles/tablet.css">
     <link rel="stylesheet" href="./styles/desktop.css">
+    <link rel="icon" href="./assets/tabLogoPhase.png">
     <title>Phase</title>
 </head>
 
@@ -17,38 +18,63 @@
             <img id="logoImage" src="./assets/Phase.png" alt="">
             <h1 id="logoText">PHASE</h1>
             <div class="btnContainer">
-                <button class="navBtn">Services</button>
-                <p>|</p>
-                <button class="navBtn">Contact</button>
-                <p>|</p>
-                <button class="navBtn">About</button>
-                <p>|</p>
-                <button class="navBtn">Career</button>
+                <a href="#services" class="navBtn">Services</a>
+                <span>|</span>
+                <a href="#contact" class="navBtn">Contact</a>
+                <span>|</span>
+                <a href="#about" class="navBtn">About</a>
+                <span>|</span>
+                <a href="#career" class="navBtn">Career</a>
             </div>
         </navbar>
     </div>
     <div class="foreground">
-        <div class="greeting"></div>
-        <div class="team"></div>
-        <div class="services"></div>
-        <div class="contact"></div>
+        <div>
+            <svg class="divShape" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 376.5">
+                <path d="M1440 376.5H0C1057.08 376.5 1400.45 125.5 1440 0V376.5Z" fill="red"></path>
+            </svg>
+            <div id="services" class="content">
+
+            </div>
+        </div>
+        <div>
+            <div id="contact" class="content">
+                <form>
+                    <input required type="text" placeholder="First name" id="fname" name="fname">
+                    <input required type="text" placeholder="Last name" id="lname" name="lname">
+                    <input required type="text" placeholder="Company" id="company" name="company">
+                    <input required type="text" placeholder="Email" id="email" name="email">
+                    <textarea required placeholder="Message" id="msg" name="msg" rows="6" cols="40"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <svg class="divShape" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 376.5">
+                <path d="M0 0L1440 0C382.924 0 39.5519 251 0 376.5V0Z" fill="red"></path>
+            </svg>
+        </div>
+        <div id="about" class="content">
+
+        </div>
+        <div id="career" class="content">
+
+        </div>
         <footer>
             <div>
-                <h3>Follow us</h3>
+                <h2>Follow us</h2>
                 <p>dolor sit amet,</p>
                 <p>consectetur</p>
                 <p>adipiscing elit</p>
                 <p>sed do eiusmod</p>
             </div>
             <div>
-                <h3>Visit us</h3>
+                <h2>Visit us</h2>
                 <p>dolor sit amet,</p>
                 <p>consectetur</p>
                 <p>adipiscing elit</p>
                 <p>sed do eiusmod</p>
             </div>
             <div>
-                <h3>Contact us</h3>
+                <h2>Contact us</h2>
                 <p>dolor sit amet,</p>
                 <p>consectetur</p>
                 <p>adipiscing elit</p>
