@@ -1,0 +1,14 @@
+@media (min-width: 1250px) {
+
+    navbar {
+        margin-top: 5rem;
+    }
+
+    #logoImage {
+        display: block;
+    }
+
+    .navBtn:hover {
+        color: #8B0F0F;
+    }
+}
