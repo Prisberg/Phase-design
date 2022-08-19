@@ -38,6 +38,8 @@ navbar {
     margin-top: 2rem;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -52,12 +54,11 @@ navbar {
 
 #logoText {
     width: 312px;
-    font-family: 'Karantina';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Karantina', sans-serif;
     font-size: 128px;
     line-height: 130px;
-    letter-spacing: 0.135em;
+    padding-left: 1.5rem;
+    letter-spacing: 0.2em;
     color: #231F20;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
@@ -93,7 +94,7 @@ navbar {
 }
 
 .btnContainer {
-    display: flex;
+    display: flex;;
     gap: 0.3rem;
     font-family: 'Calibri', sans-serif;
     font-style: normal;
