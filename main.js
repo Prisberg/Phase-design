@@ -1,4 +1,9 @@
 window.onload = function () {
+    form();
+    swiperInit();
+}
+
+function swiperInit() {
     const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
@@ -7,7 +12,7 @@ window.onload = function () {
         autoplay: {
             delay: 5000,
             disableOnInteraction: true,
-          },
+        },
 
         // If we need pagination
         pagination: {
@@ -26,3 +31,10 @@ window.onload = function () {
         },
     });
 }
+
+function form() {
+    const form = document.getElementsByTagName("form")[0];
+    form.addEventListener('submit', handleForm);
+}
+
+function handleForm(event) { event.preventDefault(); }
