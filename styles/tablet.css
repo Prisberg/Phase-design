@@ -1,1 +1,11 @@
-@media (min-width: 640px) {}
+@media (min-width: 640px) {
+
+    /* the text padding, the space between logotype and first div, the logo image */
+    .paddedText {
+        padding: 0 4rem;
+    }
+
+    .foreground {
+        top: 100px;
+    }
+}

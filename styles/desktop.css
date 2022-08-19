@@ -11,4 +11,12 @@
     .navBtn:hover {
         color: #8B0F0F;
     }
+
+    .divShape {
+        fill: white;
+    }
+
+    .paddedText {
+        padding: 0 10rem;
+    }
 }
