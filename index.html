@@ -31,8 +31,8 @@
             </div>
         </navbar>
     </div>
-    <div class="foreground">
 
+    <div class="foreground">
         <div>
             <svg class="divShape" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 376.5">
                 <path d="M1440 376.5H0C1057.08 376.5 1400.45 125.5 1440 0V376.5Z" fill="red"></path>
@@ -74,20 +74,25 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide text">
-                            <h3>Consultation</h3>
+                            <div class="slide-content">
+                                <h3>Consultation</h3>
+                            </div>
                         </div>
                         <div class="swiper-slide text">
-                            <h3>Design</h3>
+                            <div class="slide-content">
+                                <h3>Design</h3>
+                            </div>
                         </div>
                         <div class="swiper-slide text">
-                            <h3>Development</h3>
+                            <div class="slide-content">
+                                <h3>Development</h3>
+                            </div>
                         </div>
                     </div>
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-
             <svg class="divShape" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 376.5">
                 <path d="M0 0L1440 0C382.924 0 39.5519 251 0 376.5V0Z" fill="red"></path>
             </svg>
@@ -96,14 +101,17 @@
         <div id="contact" class="content">
             <form>
                 <h2>Get in touch</h2>
-                <input type="text" placeholder="First name" id="fname" name="fname">
-                <input type="text" placeholder="Last name" id="lname" name="lname">
-                <input type="text" placeholder="Company" id="company" name="company">
-                <input type="text" placeholder="Email" id="email" name="email">
-                <textarea re placeholder="Message" id="msg" name="msg" rows="6" cols="40"></textarea>
-                <button id="formBtn" type="submit"><h2>SEND</h2></button>
+                <input required type="text" placeholder="First name" id="fname" name="fname">
+                <input required type="text" placeholder="Last name" id="lname" name="lname">
+                <input required type="text" placeholder="Company" id="company" name="company">
+                <input required type="text" placeholder="Email" id="email" name="email">
+                <textarea required placeholder="Message" id="msg" name="msg" rows="6" cols="40"></textarea>
+                <button id="formBtn" type="submit">
+                    <h2>SEND</h2>
+                </button>
             </form>
         </div>
+
         <footer>
             <div>
                 <h2>Follow us</h2>
