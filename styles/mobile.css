@@ -17,6 +17,11 @@ h2 {
     text-transform: capitalize;
 }
 
+h3 {
+    font-family: 'Calibri', sans-serif;
+    color: #8B0F0F;
+}
+
 p {
     font-family: 'karma', serif;
 }
@@ -131,11 +136,11 @@ navbar {
 }
 
 .slide-content {
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     min-height: 300px;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: start;
 }
 
 #services {
